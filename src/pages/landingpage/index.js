@@ -33,7 +33,7 @@ const cards = [
     icon: card2,
     title: 'Super Fast',
     description:
-      'Since OpenZoo runs on the Wanchain Network, transactions are usually confirmed within 5 seconds.',
+      'Since FXgora runs on the FX Core Network, transactions are usually confirmed within 5 seconds.',
     path: '/',
   },
   {
@@ -95,9 +95,9 @@ const LandingPage = () => {
       <div className={styles.body}>
         <div className={styles.main}>
           <div className={styles.mainLeft}>
-            <div className={styles.title}>{`Fast NFT trading on OpenZoo`}</div>
+            <div className={styles.title}>{`Fast NFT trading on FXgora`}</div>
             <div className={styles.subtitle}>
-              OpenZoo is an NFT marketplace built on Wanchain. Create and trade
+              FXgora is an NFT marketplace built on Wanchain. Create and trade
               NFTs instantly with low network costs.
             </div>
             <div className={styles.subtitle}>
@@ -140,7 +140,7 @@ const LandingPage = () => {
         </div>
         <div className={styles.about}>
           <div className={styles.aboutInner}>
-            <div className={styles.aboutTitle}>Why OpenZoo</div>
+            <div className={styles.aboutTitle}>Why FXgora</div>
             <div className={styles.aboutCards}>
               {cards.map((card, key) =>
                 renderAboutCard(

@@ -484,7 +484,7 @@ const PaintBoard = () => {
       const { data: nonce } = await getNonce(account, authToken);
       try {
         const signer = await getSigner();
-        const msg = `Approve Signature on OpenZoo.io with nonce ${nonce}`;
+        const msg = `Approve Signature on FXgora.io with nonce ${nonce}`;
         signature = await signer.signMessage(msg);
         addr = ethers.utils.verifyMessage(msg, signature);
       } catch (err) {
@@ -733,7 +733,7 @@ const PaintBoard = () => {
                   onChange={e => setIsAcceptTerms(event.target.checked)}
                 />
               }
-              label="I accept OpenZoo's Terms and Conditions. *"
+              label="I accept FXgora's Terms and Conditions. *"
               className="align-items-start"
             />
           </FormGroup>

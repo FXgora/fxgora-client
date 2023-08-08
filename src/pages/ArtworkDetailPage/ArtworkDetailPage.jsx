@@ -1879,7 +1879,7 @@ export function ArtworkDetailPage() {
       let addr;
       try {
         const signer = await getSigner();
-        const msg = `Approve Signature on OpenZoo.io with nonce ${nonce}`;
+        const msg = `Approve Signature on FXgora.io with nonce ${nonce}`;
         signature = await signer.signMessage(msg);
         addr = ethers.utils.verifyMessage(msg, signature);
       } catch {
@@ -2672,7 +2672,7 @@ export function ArtworkDetailPage() {
               <b>
                 <FontAwesomeIcon icon={faExclamationTriangle} /> Warning:
               </b>{' '}
-              This content has been flagged by the OpenZoo Team as suspicious.
+              This content has been flagged by the FXgora Team as suspicious.
             </div>
           )}
           <div className="row md:space-y-20">

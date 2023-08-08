@@ -346,7 +346,7 @@ const Header = (props) => {
         <div className={cx('header__search', styles.searchWrapper)}>
           <input
             type="text"
-            placeholder="Search on OpenZoo"
+            placeholder="Search on FXgora"
             onChange={e => handleSearch(e.target.value)}
             onFocus={() => setSearchBarActive(true)}
             onBlur={() => setTimeout(() => setSearchBarActive(false), 200)}

@@ -478,7 +478,7 @@ export function CollectionList() {
             <div className="hero_marketplace bg_white">
               <div className="container">
                 {
-                  warnedCollections && warnedCollections.includes(addr) && <div className="alert alert-danger"><b><FontAwesomeIcon icon={faExclamationTriangle} /> Warning:</b> This content has been flagged by the OpenZoo Team as suspicious.</div>
+                  warnedCollections && warnedCollections.includes(addr) && <div className="alert alert-danger"><b><FontAwesomeIcon icon={faExclamationTriangle} /> Warning:</b> This content has been flagged by the FXgora Team as suspicious.</div>
                 }
                 <div className="col-lg-6">
                   <div className={styles.collectionDescription}>

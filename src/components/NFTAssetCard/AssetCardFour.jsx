@@ -389,7 +389,7 @@ export function AssetCardFour(props) {
               {warnedCollections &&
               warnedCollections.includes(item?.contractAddress) ? (
                 <BootstrapTooltip
-                  title="Warning: This content has been flagged by the OpenZoo Team as suspicious."
+                  title="Warning: This content has been flagged by the FXgora Team as suspicious."
                   placement="top"
                 >
                   <a className="text-danger">
