@@ -33,7 +33,7 @@ const cards = [
     icon: card2,
     title: 'Super Fast',
     description:
-      'Since FXgora runs on the FX Core Network, transactions are usually confirmed within 5 seconds.',
+      'Since FXgora runs on the FunctionX Network, transactions are usually confirmed within 5 seconds.',
     path: '/',
   },
   {
