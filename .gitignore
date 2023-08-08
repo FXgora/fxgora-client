@@ -25,3 +25,6 @@ yarn-error.log*
 .env
 dist/.eslintrc.dev.js
 .node-version
+yarn.lock
+package-lock.json
+yarn.lock
