@@ -1,6 +1,6 @@
 # Client for Artion Marketplace - Powered by Fantom
 
-A client side implementation of the Artion Marketplace for NFT trading on Fantom Opera network.
+A client side implementation of the Artion Marketplace for NFT trading on FXgora.
 
 Artion allows users: 
 - to explore existing NFTs on Fantom Opera network.
