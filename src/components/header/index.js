@@ -90,21 +90,21 @@ const Header = (props) => {
     const DarkValue = window.localStorage.getItem('darkmode');
     return DarkValue !== null
       ? JSON.parse(DarkValue)
-      : false;
+      : true;
   });
 
-  useEffect(() => {
-    if (DarkMode === true) {
-      document.body.classList.add('is__dark');
-      window.localStorage.setItem('darkmode', true);
-      props?.setDark && props.setDark(true)
-    }
-    else {
-      document.body.classList.remove('is__dark');
-      window.localStorage.setItem('darkmode', false);
-      props?.setDark && props.setDark(false)
-    }
-  }, [DarkMode])
+  // useEffect(() => {
+  //   if (DarkMode === true) {
+  //     document.body.classList.add('is__dark');
+  //     window.localStorage.setItem('darkmode', true);
+  //     props?.setDark && props.setDark(true)
+  //   }
+  //   else {
+  //     document.body.classList.remove('is__dark');
+  //     window.localStorage.setItem('darkmode', false);
+  //     props?.setDark && props.setDark(false)
+  //   }
+  // }, [DarkMode])
 
   const [onlyVerified, setOnlyVerified] = React.useState(() => {
     const onlyVerifiedValue = window.localStorage.getItem('onlyVerified');
@@ -584,7 +584,7 @@ const Header = (props) => {
 
                 </div>
               </li>
-              <li>
+              {/* <li>
                 <div className={styles.darkmodeToggle}>
                   <span style={{ marginRight: 5, display: 'flex' }}>
                     <FontAwesomeIcon icon={faSun} />
@@ -608,7 +608,7 @@ const Header = (props) => {
                     <FontAwesomeIcon icon={faMoon} />
                   </span>
                 </div>
-              </li>
+              </li> */}
 
             </ul>
           </div>
@@ -725,7 +725,7 @@ const Header = (props) => {
 
                   </div>
                 </li>
-                <li>
+                {/* <li>
                   <div className={styles.darkmodeToggle}>
                     <span style={{ marginRight: 5, display: 'flex' }}>
                       <FontAwesomeIcon icon={faSun} />
@@ -749,7 +749,7 @@ const Header = (props) => {
                       <FontAwesomeIcon icon={faMoon} />
                     </span>
                   </div>
-                </li>
+                </li> */}
               </ul>
               {account ? (
                 <div className="col-md-12 col-sm-12">

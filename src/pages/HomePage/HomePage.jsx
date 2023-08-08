@@ -13,7 +13,7 @@ export function HomePage() {
       document.body.classList.remove('homepage');
     };
   }, []);
-  const [dark, setDark] = useState(false);
+  const [dark, setDark] = useState(true);
   return (
     <div className="overflow-hidden">
       <div className={`${styles.container} ${styles.homepage}`}>
@@ -23,7 +23,7 @@ export function HomePage() {
             <div>
               <div className={styles.nftmkt}>NFT MARKETPLACE</div>
               <div className={styles.openzoo}>
-                OPEN<span>ZOO</span>
+                FX<span>gora</span>
               </div>
               <div className={styles.subtitle}>
                 not so ordinary,

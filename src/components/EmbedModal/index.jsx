@@ -5,12 +5,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 
 const EmbedModal = ({ visible, onClose, embedTitle }) => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   const frameProps = {
     height: 300,
     width: 400,
-    src: window.location.href + "?" + ["embed", darkMode ? "theme=dark" : ""].filter(x => !!x).join("&"),
+    src: window.location.href + "?" + ["embed", ""].filter(x => !!x).join("&"),
     title: ["FXgora", embedTitle].filter(x => !!x).join(" - ")
   }
 
@@ -35,7 +35,7 @@ const EmbedModal = ({ visible, onClose, embedTitle }) => {
           value={value}
         />
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-          <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
+          {/* <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
             <span style={{ marginRight: 5, display: 'flex' }}>
               <FontAwesomeIcon icon={faSun} />
             </span>
@@ -55,7 +55,7 @@ const EmbedModal = ({ visible, onClose, embedTitle }) => {
             <span style={{ marginLeft: 5, display: 'flex' }}>
               <FontAwesomeIcon icon={faMoon} />
             </span>
-          </div>
+          </div> */}
           <button className="btn btn-sm btn-white" onClick={() => copyToClipboard()}>
             <i className="ri-save-line" style={{ marginRight: "5px" }}></i>Copy
           </button>
