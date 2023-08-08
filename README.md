@@ -3,7 +3,7 @@
 A client side implementation of the Artion Marketplace for NFT trading on FXgora.
 
 Artion allows users: 
-- to explore existing NFTs on Fantom Opera network.
+- to explore existing NFTs on FXgora.
 - to create a new collection of a new NFT
 - to register a collection of already deployed NFT.
 - to buy / sell / collect rare NFTs.
