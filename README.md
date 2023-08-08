@@ -1,9 +1,9 @@
 # Client for Artion Marketplace - Powered by Fantom
 
-A client side implementation of the Artion Marketplace for NFT trading on FXgora.
+A client side implementation of the Artion Marketplace for NFT trading on FX Core.
 
 Artion allows users: 
-- to explore existing NFTs on FXgora.
+- to explore existing NFTs on FX Core.
 - to create a new collection of a new NFT
 - to register a collection of already deployed NFT.
 - to buy / sell / collect rare NFTs.
