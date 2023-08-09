@@ -97,19 +97,25 @@ input[type='number'] {
 }
 
 .is__dark .dropdown-menu {
-  background: #000000 !important;
-  border:0 !important;
+  background: #1e1e1e !important;
+  border:solid 1px #eeeeee55;
 }
 
 .is__dark .dropdown-item:hover {
-  color: #111111;
+  color: #1e1e1e;
 }
 .is__dark .dropdown-item:hover * {
-  color: #111111;
+  color: #1e1e1e;
 }
 
 .is__dark .recharts-default-tooltip {
   background: #ffffff17 !important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover
+{
+  background-color: #ffffff15;
+  color:white !important;
 }
 
 .rdt {
