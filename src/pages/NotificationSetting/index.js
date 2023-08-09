@@ -131,7 +131,7 @@ const followerSettings = [
 const CustomCheckbox = withStyles({
   root: {
     '&$checked': {
-      color: '#00a59a',
+      color: '#FD488B',
     },
   },
   checked: {},

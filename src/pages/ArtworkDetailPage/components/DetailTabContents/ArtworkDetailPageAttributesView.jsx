@@ -362,7 +362,7 @@ export function ArtworkDetailPageAttributesView(props) {
               Contracts[CHAIN].zooGenes.toLowerCase() === address.toLowerCase() && attributes[key].display_type === 'boost_number' && Number(attributes[key].value) > 0 ?
             
             <div className="progress" style={{width:'100%',marginRight:20, height: '1.15rem'}}>
-              <div className="progress-bar" style={{background:'#00a59a',width:`${attributes[key].value2 || attributes[key].value}%`}}>{attributes[key].value2 || attributes[key].value}</div>
+              <div className="progress-bar" style={{background:'#FD488B',width:`${attributes[key].value2 || attributes[key].value}%`}}>{attributes[key].value2 || attributes[key].value}</div>
             </div>
 
             : Contracts[CHAIN].zooGenes.toLowerCase() === address.toLowerCase() && (attributes[key].value2 || attributes[key].value)

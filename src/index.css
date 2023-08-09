@@ -86,29 +86,30 @@ input[type='number'] {
 }
 
 .is__dark .MuiPopover-paper {
-  background: #4d4d4d !important;
+  background: #ffffff17 !important;
   color: white;
 }
 
 .is__dark .MuiStepIcon-text {
-  color: #4d4d4d !important;
-  fill: #4d4d4d !important;
+  color: #ffffff17 !important;
+  fill: #ffffff17 !important;
   font-weight: bold;
 }
 
 .is__dark .dropdown-menu {
-  background: #4d4d4d !important;
+  background: #000000 !important;
+  border:0 !important;
 }
 
 .is__dark .dropdown-item:hover {
-  color: #4d4d4d;
+  color: #111111;
 }
 .is__dark .dropdown-item:hover * {
-  color: #4d4d4d;
+  color: #111111;
 }
 
 .is__dark .recharts-default-tooltip {
-  background: #4d4d4d !important;
+  background: #ffffff17 !important;
 }
 
 .rdt {
@@ -161,14 +162,14 @@ input[type='number'] {
 
 .MuiStepIcon-root.MuiStepIcon-active,
 .MuiStepIcon-root.MuiStepIcon-completed {
-  color: #00a59a !important;
+  color: #FD488B !important;
 }
 
 .card_body .bg_light {
   background: #f7f7f7;
 }
 .is__dark .card_body .bg_light {
-  background: #4d4d4d !important;
+  background: #ffffff17 !important;
 }
 
 .is__dark .card_body .card_head_text {
@@ -176,7 +177,7 @@ input[type='number'] {
 }
 
 .is__dark .bg_input {
-  background: #4d4d4d !important;
+  background: #ffffff17 !important;
 }
 
 .modal {
@@ -184,7 +185,7 @@ input[type='number'] {
 }
 
 .is__dark .ri-checkbox-blank-circle-fill.color_brand:before {
-  color: #00a59a;
+  color: #FD488B;
 }
 
 .is__dark .react-loading-skeleton {
@@ -202,7 +203,7 @@ input[type='number'] {
   right: 15px;
   bottom: 15px;
   border-radius: 50%;
-  background: #00a59a;
+  background: #FD488B;
   color: white;
   width: 3rem;
   height: 3rem;
@@ -222,15 +223,15 @@ input[type='number'] {
 
 /*Collection List Page*/
 .is__dark .collectionList .stat-card {
-  background: #4d4d4d !important;
+  background: #ffffff17 !important;
 }
 
 .is__dark .collectionList .stat-card .color_brand {
-  color: #00a59a;
+  color: #FD488B;
 }
 
 .is__dark .collectionList .bg_hard_light {
-  background: #4d4d4d !important;
+  background: #ffffff17 !important;
 }
 
 .collectionList .detail .stat-card {
@@ -254,7 +255,7 @@ input[type='number'] {
   font-weight: 700;
 }
 .claimFreeWanBtn {
-  background-color: #00a59a;
+  background-color: #FD488B;
   font-weight: bold;
   cursor: pointer;
   border-radius: 10px;
@@ -277,13 +278,13 @@ input[type='number'] {
   justify-content: space-between;
 }
 .is__dark .faucetBalance {
-  background-color: #4d4d4d !important;
+  background-color: #ffffff17 !important;
 }
 .is__dark .faucetBalanceTitle {
   border-right: 1px solid rgba(255, 255, 255, 0.2) !important;
 }
 .is__dark .color_brand {
-  color: #00a59a !important;
+  color: #FD488B !important;
 }
 .faucetBalanceTitle {
   min-width: fit-content;
@@ -434,6 +435,6 @@ input:read-only:focus {
 
 .color_black.active
 {
-  color: #00a59a !important;
+  color: #FD488B !important;
   font-weight: bold !important;
 }

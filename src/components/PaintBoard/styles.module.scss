@@ -62,7 +62,7 @@
   .is__dark {
     :local {
       .uploadCont {
-        background: #4d4d4d !important;
+        background: #ffffff17 !important;
       }
     }
   }
@@ -111,7 +111,7 @@
 }
 
 .browse {
-  color: #00a59a !important;
+  color: #FD488B !important;
   cursor: pointer;
 }
 
@@ -218,7 +218,7 @@
   text-decoration: unset;
   font-size: 18px;
   margin-top: 18px;
-  color: #00a59a;
+  color: #FD488B;
 }
 
 .formGroup {
@@ -300,8 +300,8 @@
   border-radius: 8px;
   font-weight: 700;
   font-size: 18px;
-  border: 1px solid #00a59a;
-  color: #00a59a;
+  border: 1px solid #FD488B;
+  color: #FD488B;
   box-shadow: none;
   display: flex;
   align-items: center;
@@ -362,7 +362,7 @@
   {
     canvas
     {
-      background:#4d4d4d !important;
+      background:#ffffff17 !important;
       border:0;
     }
   }

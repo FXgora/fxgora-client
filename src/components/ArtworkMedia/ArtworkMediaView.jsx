@@ -41,7 +41,7 @@ function Model({ url }) {
 function Loader3D() {
   const { progress } = useProgress();
   return (
-    <Html center style={{ color: '#00a59a' }}>
+    <Html center style={{ color: '#FD488B' }}>
       {progress.toFixed(2)}%
     </Html>
   );
@@ -77,7 +77,7 @@ export function ArtworkMediaView(props) {
         <div className="audio-wrapper">
           {coverImage && (
             <Suspense
-              fallback={<Loader type="Oval" stroke="#00A59A" size={32} />}
+              fallback={<Loader type="Oval" stroke="#FD488B" size={32} />}
             >
               <SuspenseImg
                 className={cx(styles.mediaInner, className)}
@@ -130,7 +130,7 @@ export function ArtworkMediaView(props) {
 
           <OrbitControls makeDefault autoRotate={true} />
         </Canvas>
-        <Loader3d dataStyles={{color:'#00a59a'}} barStyles={{background:'#00a59a'}} dataInterpolation={(p) => `Loading ${p.toFixed(2)}%`}/>
+        <Loader3d dataStyles={{color:'#FD488B'}} barStyles={{background:'#FD488B'}} dataInterpolation={(p) => `Loading ${p.toFixed(2)}%`}/>
       </div>
     );
   } else {
@@ -139,7 +139,7 @@ export function ArtworkMediaView(props) {
       let image2 = image.replace("zoo-factory.vercel.app","app.zookeeper.finance");
       image2=image.replace("api-mainnet","thumb-mainnet");
       return (
-        <Suspense fallback={<Loader type="Oval" stroke="#00A59A" size={32} />}>
+        <Suspense fallback={<Loader type="Oval" stroke="#FD488B" size={32} />}>
           <SuspenseImg
             className={cx(styles.mediaInner, className)}
             src={image2+'?img-quality=60&img-format=auto&img-width=676'}

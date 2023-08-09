@@ -53,7 +53,7 @@
     .is__dark {
         :local {
             .option {
-                background: #4d4d4d !important
+                background: #ffffff17 !important
             }
         }
     }
@@ -74,7 +74,7 @@
     }
 
     &.active {
-        border-left-color: #00a59a;
+        border-left-color: #FD488B;
     }
 }
 
@@ -201,7 +201,7 @@
     border-radius: 50%;
     right: -11px;
     bottom: 17px;
-    background-color: #00a59a;
+    background-color: #FD488B;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -512,7 +512,7 @@
 }
 
 .browse {
-    color: #00a59a !important;
+    color: #FD488B !important;
     cursor: pointer;
 }
 
@@ -552,7 +552,7 @@
     .is__dark {
         :local {
             .uploadCont {
-                background: #4d4d4d !important;
+                background: #ffffff17 !important;
             }
         }
     }

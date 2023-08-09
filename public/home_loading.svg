@@ -3,7 +3,7 @@
 <circle cx="35" cy="50" fill="#ffc107" r="15">
   <animate attributeName="cx" repeatCount="indefinite" dur="0.9090909090909091s" keyTimes="0;0.5;1" values="35;65;35" begin="-0.45454545454545453s"></animate>
 </circle>
-<circle cx="65" cy="50" fill="#00a59a" r="15">
+<circle cx="65" cy="50" fill="#FD488B" r="15">
   <animate attributeName="cx" repeatCount="indefinite" dur="0.9090909090909091s" keyTimes="0;0.5;1" values="35;65;35" begin="0s"></animate>
 </circle>
 <circle cx="35" cy="50" fill="#ffc107" r="15">

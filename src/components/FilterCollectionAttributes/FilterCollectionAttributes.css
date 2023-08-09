@@ -58,7 +58,7 @@
 }
 
 .attribute-filter-container .MuiSlider-root {
-  color: #00a59a !important;
+  color: #FD488B !important;
   margin-top: 8px;
 }
 
@@ -102,12 +102,12 @@
 
 .attribute-filter-container .MuiChip-root {
   color: white;
-  background:#00a59a;
+  background:#FD488B;
 }
 
 .attribute-filter-container .MuiChip-root {
   color: white;
-  background:#00a59a;
+  background:#FD488B;
 }
 
 .attribute-filter-container .MuiChip-root svg
@@ -128,17 +128,17 @@
 }
 .is__dark .attribute-filter-container .MuiFormControl-root, .is__dark .attribute-filter-container .MuiAutocomplete-inputRoot .MuiAutocomplete-input
 {
-  background:#4d4d4d !important;
+  background:#ffffff17 !important;
 }
 
 
 .is__dark .MuiAutocomplete-popper
 {
-  background:#4d4d4d !important;
+  background:#ffffff17 !important;
 }
 
 .is__dark .attribute-filter-container .MuiSlider-root span {
-  color: #00a59a !important;
+  color: #FD488B !important;
 
 }
 
@@ -149,5 +149,5 @@
 
 .is__dark .attribute-filter-container .MuiChip-root
 {
-  background:#00a59a;
+  background:#FD488B;
 }

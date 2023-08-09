@@ -29,7 +29,7 @@ const useStyles = makeStyles(() => ({
     backgroundColor: '#FFF',
   },
   selected: {
-    backgroundColor: '#00a59a',
+    backgroundColor: '#FD488B',
     color: '#FFF',
     fontWeight: 700,
     border: 0,

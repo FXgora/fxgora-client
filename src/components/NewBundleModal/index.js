@@ -45,7 +45,7 @@ const NFTItem = ({ item, selected, onClick }) => {
               fallback={
                 <Loader
                   type="Oval"
-                  color="#00A59A"
+                  color="#FD488B"
                   height={32}
                   width={32}
                   className={styles.loader}
